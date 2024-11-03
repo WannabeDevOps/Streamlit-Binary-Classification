@@ -13,9 +13,12 @@ from sklearn.metrics import ConfusionMatrixDisplay, RocCurveDisplay, PrecisionRe
 
 def main():
     ################ Step 1 Create Web Title #####################
-    st.title("Binary Classification Streamlit App")
+    
+    st.title("Binary Classification Streamlit Application")
+    st.markdown(" เห็ดนี้กินได้หรือไม่??? 🍄‍🟫 By Gasidid 125")
+    st.markdown("This Application made for Mushroom Classification and Deploy Test")
+
     st.sidebar.title("Binary Classification Streamlit App")
-    st.markdown(" เห็ดนี้กินได้หรือไม่??? 🍄‍🟫🍄‍🟫🍄‍🟫")
     st.sidebar.markdown(" เห็ดนี้กินได้หรือไม่??? 🍄‍🟫🍄‍🟫🍄‍🟫")
 
     ############### Step 2 Load dataset and Preprocessing data ##########
